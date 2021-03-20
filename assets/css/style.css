@@ -1,29 +1,30 @@
+/* This controls the styling of the entire page  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* color of background of page  */
 body {
     background-color: #d9dcd6;
 }
-
+/* Everything within the header the blue background color  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* The title horiseon  */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* the edit for the letters seo in the title horiseon  */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* navagation bar  */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,22 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header nav ul {
-    list-style-type: none;
-}
-
+/* everything listed in the navagation bar  */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
-
+/* all links on the nav bar  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* all paragraphs  */
 p {
     font-size: 16px;
 }
-
+/* big main picture of four people having a meeting  */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,17 +56,17 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Section titled search engine optimization  and social media marketing  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Section titled online reputation management  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* 3 columns of pictures for each one of the 3 sections  */
 .content {
     width: 75%;
     display: inline-block;
@@ -102,6 +100,7 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    transform: ;
 }
 
 
